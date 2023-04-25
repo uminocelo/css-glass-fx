@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron{
+  width: 100vw;
+  height: 100vh;
+  /* padding: 20vh; */
+}
+
+.bg-image{
+  background-image: url('fundo-imagem.jpg');
+  background-color: #cccccc;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.glass{
+  width: 33vw;
+  height: 82vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 5vh;
+  left: 35vw;
+}
+
+.fx{
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 20px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px double rgba(3, 80, 247, 0.18); /* change this props to match with your bg */
+  border-radius: 15px;
+}
